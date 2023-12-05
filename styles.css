@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
@@ -11,14 +11,14 @@ body {
     height: 100vh;
 }
 
-.container{
+.container {
     position: absolute;
-    justify-content: center;
-    align-items: center;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1em;
     box-shadow: 0 4px 8px #dfdfe2;
     border-radius: 1em;
@@ -27,7 +27,7 @@ body {
     flex-wrap: wrap;
 }
 
-.display-containers{
+.display-containers {
     margin: 1em;
     box-shadow: 0 4px 8px #dfdfe2;
     border-radius: 1em;
@@ -35,7 +35,8 @@ body {
     padding: 1em;
 }
 
-small{
+small {
     display: block;
+    text-align: center;
     margin: 0.5em 0;
 }
