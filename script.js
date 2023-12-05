@@ -2,9 +2,9 @@ const displayKey = (e) => {
 	const container = document.querySelector(".container");
 	container.innerHTML = "";
 	const keys = {
-		"e.key": e.key === " " ? "Space" : e.key,
-		"e.keyCode": e.keyCode,
-		"e.code": e.code,
+		key: e.key === " " ? "Space" : e.key,
+		keyCode: e.keyCode,
+		code: e.code,
 	};
 
 	for (let key in keys) {
